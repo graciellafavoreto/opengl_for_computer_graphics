@@ -16,13 +16,13 @@ def draw_text(x, y, z, text):
 
 def draw_axes():
     glBegin(GL_LINES)
-    glColor3f(1, 1, 1) # red
+    glColor3f(1, 1, 1) # white 
     glVertex3f(0, 0, 0)
     glVertex3f(5, 0, 0)  # X
-    glColor3f(1, 1, 1) # green
+    glColor3f(1, 1, 1) # white
     glVertex3f(0, 0, 0)
     glVertex3f(0, 5, 0)  # Y
-    glColor3f(1, 1, 1) # blue
+    glColor3f(1, 1, 1) # white
     glVertex3f(0, 0, 0)
     glVertex3f(0, 0, 5)  # Z
     glEnd()
