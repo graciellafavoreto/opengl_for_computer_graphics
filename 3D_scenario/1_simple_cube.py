@@ -2,7 +2,6 @@ from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
 
-
 def draw_axes():
     glBegin(GL_LINES)
     glColor3f(1, 0, 0) # red
@@ -15,7 +14,6 @@ def draw_axes():
     glVertex3f(0, 0, 0)
     glVertex3f(0, 0, 2)  # Z
     glEnd()
-
 
 def draw_cube():
     glBegin(GL_QUADS)
